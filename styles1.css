@@ -1,0 +1,92 @@
+body {
+        font-family: Arial, sans-serif;
+        background-image: url("https://img.freepik.com/fotos-premium/chef-cocinando-comida-cocina-humo-saliendo-fondo_950347-27259.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        color: #333;
+}
+
+body.sinimagen {
+        background-image: none;
+        background-color: #55a7a7;
+
+}
+
+header {
+        background-color: #6bdb02;
+        padding: 25px;
+        text-align: center;
+}
+
+p {
+        color: #4f07eb;
+}
+
+h1 {
+        color: #12de75;
+}
+
+nav ul {
+        list-style-type: none;
+        padding: 0;
+}
+
+nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+}
+
+
+h2 {
+        color: #00bf70;
+}
+
+h3 {
+        color: #6300bf;
+}
+
+/* Estils per llistes */
+ul {
+        list-style-type: square;
+        margin: 10px 0;
+        color: #4f07eb;
+}
+
+ol {
+        list-style-type: decimal;
+        margin: 10px 0;
+        color: #4f07eb;
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0;
+
+}
+
+/* Estils per enllaços */
+a {
+        color: #ae20fa;
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+/* Estils per al footer */
+footer {
+        color: #5b5a95;
+        text-align: center;
+}
+
+a.enlace {
+
+       color: white;
+}
+
